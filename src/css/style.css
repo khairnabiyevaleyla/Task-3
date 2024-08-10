@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow:hidden;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 15px;
+}
+
+.left-panel {
+    width: 60%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(72, 1, 79) 70%, rgb(129, 4, 182) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.branding h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.branding p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.branding ul {
+    list-style: none;
+    padding: 0;
+}
+
+.branding ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #333333;
+    border-radius: 15px;
+}
+
+
+.branding ul li span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    color: #1A1A1A;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.right-panel {
+    width: 40%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-panel h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.right-panel p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.social-signup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.google-btn,
+.github-btn {
+    width: 48%;
+    padding: 10px;
+    background-color: #000000;
+    border: 1px solid;
+    border-color: #969696;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.or {
+    text-align: center;
+    margin: 10px 0;
+    color: #888888;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+
+input {
+    padding: 10px;
+    background-color: #333333;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.password-hint {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.signup-btn {
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    background-color:#000000; 
+    color: #ffffff;
+}
+
+
+.login-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #888888;
+}
+
+.login-link a {
+    color: #A16AF3;
+    text-decoration: none;
+}
+
+.text-left{
+    text-align: left;
+}
+
+button input {
+    font-size: 8px;
+}
+
+label {
+    font-size: 10px;
+    padding: 0 10px;
+}
+

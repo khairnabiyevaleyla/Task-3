@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Account</title>
-    <link rel="stylesheet" href="../src/css/reset.css">
     <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee3026eab6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left-panel">
+            <div class="branding">
+                <h1>Get Started with Us</h1>
+                <p>Complete these easy steps to register your account.</p>
+                <ul>
+                    <div class="li-bg">
+                        <li><span>1</span> Sign up your account</li>
+                    </div>
+                    <div>
+                        <li><span>2</span> Set up your workspace</li>
+
+                    </div>
+                    <div>
+                        <li><span>3</span> Set up your profile</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h2>Sign Up Account</h2>
+            <p>Enter your personal data to create your account.</p>
+            <div class="social-signup">
+                <button class="google-btn"><a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S590792056%3A1723232910873951&ddm=0"><i class="fa-brands fa-google"></i>Google</a></button>
+                <button class="github-btn"><a href="https://github.com/login"><i class="fa-brands fa-github"></i>GitHub</a></button>
+            </div>
+            <p class="or">Or</p>
+            <form>
+                <div style="display: flex; flex-direction: row;" class="text-left">
+                    <div style="width:50%; margin-right: 10px;" class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" placeholder="eg. John" required>
+                    </div>
+                    <div style="width:50%;" class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" placeholder="eg. Francisco" required>
+                    </div>
+                </div>
+                
+                <label class="text-left">Email</label>
+                <input type="email" placeholder="eg. johnfrans@gmail.com" required>
+
+                <label class="text-left">Password</label>
+                <input type="password" placeholder="Enter your password" required>
+
+
+                <p style="font-size: 10px;color: grey; text-align: left;">Must be at least 8 characters.</p>
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <p>Already have an account? <a style="text-decoration: underline; color: white;" href="#">Log in</a></p>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
